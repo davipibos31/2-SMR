@@ -1,0 +1,58 @@
+ejercicio 1
+
+
+for linea in `ls -l $1 | tr -s ' ' '#' | cut -d '#' -f3,5`
+do
+  tam=`echo $linea | cut -d '#' -f2`
+  nom=`echo $linea | cut -d '#' -f1`
+# if [ $tam -lt $2 ]
+# then
+ echo nom=$nom tam=$tam
+#fi
+
+# echo $1=$nom
+done
+
+
+
+ejercicio 2
+
+
+for datos in $*
+do
+  nombre=`ls -l $1 | tr -s ' ' '|' | cut -d '|' -f3,5 | grep root`
+  echo $nombre
+done
+
+
+
+ejercicio 3
+
+
+
+for linea in `ps -ef | tr -s ' ' '#' | cut -d '#' -f2,8`
+do
+  nom=`echo $linea | cut -d '#' -f2`
+  pid=`echo $linea | cut -d '#' -f1`
+echo $nom - $pid
+done
+
+
+
+
+ejercicio 4
+
+
+
+
+
+n=$1
+
+while [ $n -ge 1 ]
+do
+if [ $1 -gt 1 ]
+then
+  n=$[$n-2]
+  echo $n
+fi
+done

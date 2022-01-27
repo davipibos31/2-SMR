@@ -1,0 +1,118 @@
+Creación de Zonas:
+
+
+zone "sanvi.local" {
+        type master;
+        file "/var/named/sanvi.local.db";
+};
+zone "0.168.192.in-addr.arpa" {
+        type master;
+        file "/var/named/reverse.sanvi.local.in";
+};
+ 
+
+Zona directa:
+
+ 
+
+$ORIGIN sanvi.local.
+
+ 
+
+$TTL 86400
+
+@     IN     SOA    dns1.sanvi.local.     correo.sanvi.local. (
+
+                    2001062501 ; serial
+
+                    21600      ; refresh after 6 hours
+
+                    3600       ; retry after 1 hour
+
+                    604800     ; expire after 1 week
+
+                    86400 )    ; minimum TTL of 1 day
+
+ 
+
+      IN     NS     dns1.sanvi.local.
+
+      IN     NS     dns2.sanvi.local.
+
+ 
+
+      IN     MX     10     mail.sanvi.local.
+
+      IN     MX     20     mail2.sanvi.local.
+
+ 
+
+             IN     A       192.168.0.5
+
+ 
+
+server1      IN     A       192.168.0.5
+
+server2      IN     A       192.168.0.7
+
+dns1         IN     A       192.168.0.2
+
+dns2         IN     A       192.168.0.3
+
+ 
+
+ftp          IN     CNAME   server2
+
+mail         IN     CNAME   server1
+
+mail2        IN     CNAME   server2
+
+www          IN     CNAME   server1
+
+ 
+
+ 
+
+Zona Indirecta:
+
+ 
+
+$ORIGIN 0.168.192.in-addr.arpa.
+
+$TTL 86400
+
+@     IN     SOA    dns1.sanvi.local.     correo.sanvi.local. (
+
+                    2001062501 ; serial
+
+                    21600      ; refresh after 6 hours
+
+                    3600       ; retry after 1 hour
+
+                    604800     ; expire after 1 week
+
+                    86400 )    ; minimum TTL of 1 day
+
+ 
+
+      IN     NS     dns1.sanvi.local.
+
+      IN     NS     dns2.sanvi.local.
+
+ 
+
+7    IN     PTR    ftp.sanvi.local.
+
+5    IN     PTR    mail.sanvi.local.
+
+7    IN     PTR    mail2.sanvi.local.
+
+5    IN     PTR    www.sanvi.local.
+
+2    IN     PTR    dns1.sanvi.local.
+
+3    IN     PTR    dns2.sanvi.local.
+
+5    IN     PTR    server1.sanvi.local.
+
+7    IN     PTR    server2.sanvi.local.

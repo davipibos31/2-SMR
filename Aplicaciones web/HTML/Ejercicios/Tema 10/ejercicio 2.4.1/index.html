@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="https://google.com/search" method="GET">
+  <p>Search: <input type="text" name="q" class="big" required /></p>
+  <fieldset>
+    <legend>Size</legend>
+    <select name="tbs">
+      <option selected disabled>Any size</option>
+      <option value="isz:l">Large</option>
+      <option value="isz:m">Medium</option>
+      <option value="isz:i">Icon</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Color</legend>        
+    <select name="tbs">
+      <option selected disabled>Any color</option>
+      <option value="ic:color">Color</option>
+      <option value="ic:gray">Black and white</option>
+      <option value="ic:trans">Transparent</option>
+   </select>
+  </fieldset>
+  <fieldset>
+    <legend>Type</legend>
+    <select name="tbs">
+      <option selected disabled>Any type</option>
+      <option value="itp:clipart">Clip art</option>
+      <option value="itp:lineart">Line drawing</option>
+      <option value="itp:animated">GIF</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Date</legend>
+    <select name="tbs">
+      <option selected disabled>Any date</option>
+      <option value="qdr:d">Past 24 hours</option>
+      <option value="qdr:w">Past week</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>License</legend>
+    <select name="tbs">
+      <option selected disabled>Any license</option>
+      <option value="il:cl">Creative commons</option>
+      <option value="il:ol">Commercial and other</option>
+    </select>
+  </fieldset>
+  <input type="hidden" name="tbm" value="isch" />
+  <button type="reset">Reset</button>
+  <button type="submit">Search</button>
+</form>
+  </body>
+</html>

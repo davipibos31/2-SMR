@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Payment form</title>
+  </head>
+  <body>
+    <form>
+      <h1>Payment form</h1>
+      <p>Required fields are followed by <strong>*</strong>.</p>
+      <section>
+        <fieldset>
+          <legend>
+            <h2>Contact information</h2>
+          </legend>
+          <fieldset>
+            <legend>Status</legend>
+            <label><input type="radio" name="title" value="mr" />Teacher</label><br />
+            <label><input type="radio" name="title" value="mrs" />Student</label><br />
+            <label><input type="radio" name="title" value="miss" />Other</label> <br />
+          </fieldset>
+          <fieldset>
+            <legend>Title</legend>
+            <label><input type="radio" name="title" value="mr" />Mr</label><br />
+            <label><input type="radio" name="title" value="mrs" />Mrs</label><br />
+            <label><input type="radio" name="title" value="miss" />Miss</label> <br />
+          </fieldset>
+          <p><label>Name: <br><input type="text" name="name" required /> *</label></p>
+          <p><label>E-mail: <br><input type="email" name="email" required /> *</label></p>
+          <p><label>Phone number: <br><input type="tel" name="tel" required /> *</label></p>
+          <p><label>Password: <br><input type="password" name="password" required /> *</label></p>
+        </fieldset>
+      </section>
+      <section>
+        <fieldset>
+          <legend>
+            <h2>Payment information</h2>
+          </legend>
+            <p>
+              <label>Card type:
+              <select name="card_type">
+                <option value="visa">Visa</option><option value="mc">Mastercard</option>
+                <option value="amex">American Express</option>
+              </select>
+              </label>
+            </p>
+            <p>
+              <label>Card number: <br><input type="tel" name="card_number" required /> *
+              </label>
+            </p>
+            <p>
+              <label>Expiration date: <br><input type="date" name="expiration" required /> *
+              </label>
+            </p>
+            <p><label>Paypal account: <br><input type="email" name="email" required /> *</label>
+            </p>
+            <p>
+              <label>Preferred method:
+              <select name="card_type">
+                <option value="visa">Credit card</option>
+                <option value="amex">Paypal</option>
+              </select>
+              </label>
+            </p>
+        </fieldset>
+      </section>
+      <p><button type="submit">Validate the payment</button></p>
+    </form>
+  </body>
+</html>

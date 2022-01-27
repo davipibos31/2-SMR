@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Block code</title>
+  </head>
+  <body>
+    <figure>
+      <figcaption>Get browser details using <code>navigator</code>:</figcaption>
+      <pre><code>function NavigatorExample() {
+        var txt;
+        txt = "Browser CodeName: " + navigator.appCodeName + "; ";
+        txt+= "Browser Name: " + navigator.appName + "; ";
+        txt+= "Browser Version: " + navigator.appVersion + "; ";
+        txt+= "Cookies Enabled: " + navigator.cookieEnabled + "; ";
+        txt+= "Platform: " + navigator.platform + "; ";
+        txt+= "User-agent header: " + navigator.userAgent + "; ";
+        console.log("NavigatorExample", txt);
+      }</code></pre>
+    </figure>
+  </body>
+</html>

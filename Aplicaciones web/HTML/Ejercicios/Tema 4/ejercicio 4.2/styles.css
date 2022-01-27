@@ -1,0 +1,26 @@
+h1  {
+  color: red;
+}
+h2  {
+  color: aqua;
+}
+ul  {
+  color: violet;
+  list-style-type: decimal;
+}
+p {
+  color: blue;
+}
+a:link  {
+  color: pink;
+}
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+ol  {
+  list-style-type: lower-latin;
+}

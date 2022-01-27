@@ -1,0 +1,119 @@
+.nerko {
+  color: black;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: line-through red wavy;
+}
+.marker {
+  color: green;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: lighter;
+  text-transform: capitalizease;
+  text-decoration: overline;
+}
+.rock {
+  color: blue;
+  font-size: 1.2rem;
+  font-style: oblique;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.nerk {
+  color: aqua;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-decoration: line-through yellow wavy;
+}
+.marke {
+  color: yellow;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: full-width;
+  text-decoration: overline;
+}
+.roc {
+  color: red;
+  font-size: 1.4rem;
+  font-style: oblique;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.ner {
+  color: orange;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: line-through red wavy;
+}
+.mark {
+  color: brown;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: bold;
+  text-transform: full-width;
+  text-decoration: underline;
+}
+.ro {
+  color: magenta;
+    font-size: 1.7rem;
+    font-style: oblique;
+    font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: overline;
+}
+.mar {
+  color: violet;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: line-through violet wavy;
+}
+.ro {
+  color: red;
+  font-size: 1.9rem;
+  font-style: oblique;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-decoration: line-through red wavy;
+}
+.ne {
+  color: orange;
+  font-size: 2rem;
+  font-style: oblique;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: overline;
+}
+.ma {
+  color: brown;
+  font-style: normal;
+    font-size: 2.1rem;
+    font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: line-through brown wavy;
+}
+.r {
+  color: magenta;
+  font-style: italic;
+    font-size: 2.2rem;
+    font-weight: bold;
+  text-transform: full-width;
+  text-decoration: underline;
+}
+.m {
+  color: violet;
+  font-style: oblique;
+    font-size: 2.3rem;
+    font-weight: bold;
+  text-transform: lowercase;
+  text-decoration: overline;
+}

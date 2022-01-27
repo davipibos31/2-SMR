@@ -1,0 +1,24 @@
+.serif {
+    font-family: serif;
+    color: blue;
+}
+.fantasy {
+    font-family: fantasy;
+    color: green;
+}
+.ser {
+    font-family: courier new;
+    color: yellow;
+}
+.fan {
+    font-family: vergana;
+    color: red;
+}
+.seri {
+  font-family: georgia;
+  color: orange;
+}
+.se {
+  font-family: arial;
+  color: magenta;
+}

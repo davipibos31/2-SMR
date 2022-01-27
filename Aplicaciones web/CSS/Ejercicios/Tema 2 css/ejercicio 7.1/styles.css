@@ -1,0 +1,109 @@
+.nerko {
+  color: black;
+  font-size: 10px;
+  text-shadow: 1px 1px 1px black,
+             2px 2px 1px red;
+             font-family: fantasy;
+}
+.marker {
+  color: green;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 1px green,
+             2px 2px 1px blue;
+             font-family: sans-serif;
+}
+.rock {
+  color: blue;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px brown,
+             2px 2px 1px red;
+             font-family: serif;
+}
+.nerk {
+  color: aqua;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px yellow,
+             2px 2px 1px orange;
+             font-family: fantasy;
+}
+.marke {
+  color: yellow;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 1px red,
+             2px 2px 1px orange;
+             font-family: arial;
+}
+.roc {
+  color: red;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 1px violet,
+             2px 2px 1px red;
+
+             font-family: fantasy;
+}
+.ner {
+  color: orange;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px brown,
+             2px 2px 1px orange;
+             font-family: vergana;
+}
+.mark {
+  color: brown;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 1px red,
+             2px 2px 1px red;
+             font-family: impact;
+}
+.ro {
+  color: magenta;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px black,
+             2px 2px 1px red;
+             font-family: arial;
+}
+.mar {
+  color: violet;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 1px red,
+             2px 2px 1px blue;
+             font-family: impact;
+}
+.ro {
+  color: red;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 1px magenta,
+             2px 2px 1px red;
+             font-family: impact;
+}
+.ne {
+  color: orange;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px yellow,
+             2px 2px 1px red;
+             font-family: vergana;
+}
+.ma {
+  color: brown;
+  font-style: normal;
+    font-size: 2.1rem;
+    text-shadow: 1px 1px 1px black,
+             2px 2px 1px yellow;
+             font-family: arial;
+}
+.r {
+  color: magenta;
+  font-style: italic;
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 1px green,
+               2px 2px 1px green;
+               font-family: impact;
+}
+.m {
+  color: violet;
+  font-style: oblique;
+    font-size: 2.3rem;
+    text-shadow: 1px 1px 1px blue,
+             2px 2px 1px blue;
+             font-family: vergana;
+}

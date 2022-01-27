@@ -1,0 +1,23 @@
+tfoot {
+  color: #f43;
+}
+thead {
+  color: #fff;
+}
+body {
+  font-size: medium;
+  font-family: dancing;
+}
+h2  {
+  text-decoration: underline;
+  font-weight: normal;
+}
+h2, li, td {
+  font-size: 2rem;
+}
+.impares {
+  color: red;
+}
+.pares {
+  color: blue;
+}

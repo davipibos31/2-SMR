@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Linux commands</title>
+  </head>
+  <body>
+    <table border="1">
+      <caption>Linux commands</caption>
+      <thead>
+        <tr>
+          <th>Commands</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td><kbd>passwd</kbd></td>
+        <td>Changes your user password:
+        <ol>
+          <li>Type your old password</li>
+          <li> Insert new password</li>
+          <li>. Conrm new password</li>
+        </ol></td>
+        </tr>
+        <tr>
+          <td><kbd> - </kbd></td>
+          <td>User’s home directory (short-cut for: <br> <samp>/home/username</samp>)</td>
+        </tr>
+        <tr>
+          <td><kbd>ls</kbd></td>
+          <td>Lists folders and les in current directory</td>
+        </tr>
+        <tr>
+          <td><kbd>mkdir</kbd></td>
+          <td>Create new directory into the current one: <br><samp>mkdir newdir</samp></td>
+        </tr>
+        <tr>
+          <td><kbd>cd</kbd></td>
+          <td>Changes directory: <samp>cd test</samp> (go to a directory named ‘test’)<br> <samp>cd ..</samp> (go to parent directory)<br> <samp>cd ~</samp> (go to home directory)</td>
+        </tr>
+        <tr>
+          <td><kbd>rm</kbd></td>
+          <td>Removes specied le or directory: <br> <samp>rm filename</samp> (remove single lename)<br> <samp>rm *.txt</samp> (remove ALL .txt les into current
+directory) <br><samp>rm -r dirname</samp>(remove directory and its les) <br><br> Please be careful when you use the -f option!</td>
+        </tr>
+        <tr>
+          <td><kbd>rmdir</kbd></td>
+          <td>Removes specied EMPTY directory <br> <samp>rmdir dirname</samp></td>
+        </tr>
+        <tr>
+          <td><kbd>pwd</kbd></td>
+          <td>Prints current absolute path</td>
+        </tr>
+        <tr>
+          <td><kbd>man</kbd></td>
+          <td>Shows specied command’s manual page: <br> <samp>man ls</samp> (shows <samp>ls</samp> help)</td>
+        </tr>
+        <tr>
+          <td><pre><code>vi x.sh</code></pre></td>
+          <td>VI is a text editor. If x.sh does not exists, vi
+creates a new le called x.sh and opens it;
+otherwise, it just opens the existing le.</td>
+        </tr>
+        <tr>
+          <td><pre><code>less textfile</code></pre></td>
+          <td><samp>less</samp>s is a text pager. Opens (read only) textle le.
+You can use up and down arrows to move across
+the text, shares many commands with VI.</td>
+        <tr>
+          <td><kbd>chmod</kbd></td>
+          <td>Changes POSIX permissions of a le or
+directory. Allows to protect les from unwanted
+access: <br> <samp>r</samp> : read permission<br><samp>w</samp> : write permission<br><samp>x</samp> : exec permission <br><br><samp><kbd>chmod</kbd> <var> + </var><var>x </var>file.sh </samp>(allows execution)<br><samp><kbd>chmod</kbd> <var> - </var><var> w</var> file.sh</samp> (denies write)</td>
+        </tr>
+        <tr>
+          <td><kbd>top</kbd></td>
+          <td>Changes owner of a le or directory:<br><samp>chown username file.sh</samp></td>
+        </tr>
+        <tr>
+          <td><kbd>cat</kbd></td>
+          <td>Prints the content of a le on screen</td>
+        </tr>
+        <tr>
+          <td><kbd>grep</kbd></td>
+          <td>Filters specied text le, and shows the lines
+that contains the pattern:<br><samp><kbd>grep</kbd> pattern file.sh</samp><br>You can use also pipe the output of another
+command:<br><samp><kbd>cat </kbd>file.sh </samp><var> | </var><samp><kbd>grep</kbd> home</samp><br><samp><kbd>cat </kbd>file.sh</samp><var> | </var><samp><kbd>grep</kbd> <var>"</var>home page<var>"</var> </samp></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

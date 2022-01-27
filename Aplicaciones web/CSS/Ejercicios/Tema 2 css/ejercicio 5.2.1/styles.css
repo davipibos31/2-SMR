@@ -1,0 +1,60 @@
+.nerko {
+  color: black;
+  font-size: 10px;
+}
+.marker {
+  color: green;
+  font-size: 1.1rem;
+}
+.rock {
+  color: blue;
+  font-size: 1.2rem;
+}
+.nerk {
+  color: aqua;
+  font-size: 1.2rem;
+}
+.marke {
+  color: yellow;
+  font-size: 1.3rem;
+}
+.roc {
+  color: red;
+  font-size: 1.4rem;
+}
+.ner {
+  color: orange;
+  font-size: 1.5rem;
+}
+.mark {
+  color: brown;
+    font-size: 1.6rem;
+}
+.ro {
+  color: magenta;
+    font-size: 1.7rem;
+}
+.mar {
+  color: violet;
+    font-size: 1.8rem;
+}
+.ro {
+  color: red;
+  font-size: 1.9rem;
+}
+.ne {
+  color: orange;
+  font-size: 2rem;
+}
+.ma {
+  color: brown;
+    font-size: 2.1rem;
+}
+.r {
+  color: magenta;
+    font-size: 2.2rem;
+}
+.m {
+  color: violet;
+    font-size: 2.3rem;
+}

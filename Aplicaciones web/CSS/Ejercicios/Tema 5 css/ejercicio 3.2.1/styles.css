@@ -1,0 +1,21 @@
+.container {
+  border: 5px solid red;
+}
+.box1 {
+  border: 5px solid green;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 50%;
+}
+.box2 {
+  border: 5px solid blue;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 50%;
+}
+.box3 {
+  border: 5px solid orange;
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 50%;
+}

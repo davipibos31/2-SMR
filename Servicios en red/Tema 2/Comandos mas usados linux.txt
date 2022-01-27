@@ -1,0 +1,203 @@
+Lista de comandos más usados en Linux
+Lista de comandos más usados en Linux
+Lista de comandos más usados
+
+* hostname: Devuelve el nombre de la máquina.
+
+* uptime: Devuelve la cantidad de tiempo trascurrido desde la última vez que se arrancó el sistema, la cantidad de usuarios trabajando en el sistema y el load average (carga del sistema).
+
+* uname -a: Información sobre el sistema operativo de la máquina.
+
+* dmesg|more: Imprime el "ring buffer" del kernel.
+
+* free -tm: Información sobre la cantidad de memoria disponible y usada.
+
+* df -h: Información sobre todo los dispositivos montados en la máquina.
+
+* du: Muestra el espacio que esta ocupado en disco.
+
+* du -bh /|more: Información sobre el espacio ocupado por cada subdirectorio, comenzando en el directorio raiz /.
+
+* ps: Información sobre los procesos del actual usuario, que se están ejecutando.
+
+* ps axu: Información sobre todos los procesos que se estan ejecutando en la máquina.
+
+* top: Información sobre el uso de cpu y memoria de los procesos del sistema.
+
+* finger usuario: Información sobre el usuario.
+
+* who: Información sobre los usuarios usando el sistema.
+
+* id usuario: Información sobre UID, GID y GROUPS del usuario.
+
+* last: Información sobre los últimos usuarios que han usado el sistema.
+
+* set|more: Información sobre el entorno de usuario actual.
+
+* ping máquina: Para comprobar si tenemos contacto con la máquina máquina (máquina: nombre o IP)
+
+* /sbin/route: Tabla de enrutamiento de nuestro sistema.
+
+* /sbin/ifconfig: Información sobre los distintos dispositivos de red
+
+* netstat: Información valiosa sobre la conexión de red (Este comando tiene muchas posibilidades, ejecutar man netstat
+
+* netstat –nt: Muestra los datos de las conexiones establecidas
+
+* ls: Lista archivos y directorios, funciona como elcomando dir de DOS.
+
+* dir: Idem. anterior.
+
+* cp: Copia archivos/directorios.
+
+* rm: Borra archivos/directorios.
+
+* mkdir: Crea directorios.
+
+* rmdir: Borra directorios (deben estar vacíos).
+
+* mv: Renombrar o mover archivos/directorios.
+
+* date: Indica la fecha y hora del sistema.
+
+* pwd: Indica la ruta absoluta donde se está ubicado.
+
+* history: Muestra el historial de comandos introducidos por el usuario.
+
+* more: Muestra el contenido de un archivo con pausas cada 25 líneas.
+
+* grep: Filtra los contenidos de un archivo.
+
+* diff: Compara archivos.
+
+* wc archivo: Muestra el número de palabras, líneas y caracteres de un archivo.
+
+* wc -c archivo: Muestra el tamaño en bytes de un archivo.
+
+* calendar: Recordatorio de fechas.
+
+* cal: Despliega un calendario.
+
+* cal -my: Calendario completo del año.
+
+* traceroute: Herramienta de red que nos muestra el camino que se necesita para llegar a otra máquina.
+
+* ifconfig: Configuración de interfaces de red, modems, etc.
+
+* route: Gestiona las rutas a otras redes.
+
+* iptraf: Muestra en una aplicación de consola todo el tráfico de red.
+
+* tcpdump: Vuelca el contenido del tráfico de red.
+
+* lsof: Muestra los archivos que utiliza cada proceso.
+
+* lsmod: Muestra los módulos de kernel que están cargados.
+
+* modprobe: Trata de instalar un módulo, si lo encuentra lo instala pero de forma temporal.
+
+* rmmod: Elimina módulos del kernel que están cargados.
+
+* sniffit: Husmeador del tráfico de red.
+
+* su: Te conviertes en administrador(root) después de introducir la clave de acceso. Ideal pararealizar alguna tarea de administración sin necesidad de salir del sistema y entrar de nuevo como root.
+
+* /usr/sbin/adduser usuario: Registra y crea una cuenta de usuario.
+
+* /usr/sbin/userdel usuario: Borra la cuenta de usuario usuario.
+
+* passwd: Cambia la cave de acceso para el usuario actual. Root puede cambiar la clave de cualquier usuario passwd usuario
+
+* /usr/sbin/groupadd grupo: Crea un nuevo grupo.
+
+* /usr/sbin/groupdel grupo: Borra un grupo.
+
+* more /etc/passwd: Muestra el fichero de claves del sistema. (Si no se usa shadow password)
+
+* more /etc/group: Muestra los grupos registrados en el sistema.
+
+* chmod permisos fichero/directorio: Cambia los permisos de ficheros/directorios
+
+* chown: Cambia los permisos de usuario: grupo de archivos/directorios.
+
+* chgrp: Cambia el grupo de un archivo o directorio.
+
+* umask: Establece que permisos serán deshabilitados para los archivos nuevos.
+
+* lpr archivo: Añade un documento a la cola de impresión.
+
+* lpq: Muestra los documentos en cola de impresión.
+
+* lprm: Cancela la impresión del documento activo.
+
+* tar: Archivador de ficheros.
+
+* gunzip: Descompresor compatible con ZIP.
+
+* mount: Montar unidades de disco duro, diskette, cdrom, etc.
+
+* wget: Programa para descargar archivos por http o ftp.
+
+* lynx: Navegador web con opciones de ftp, https.
+
+* ftp: Cliente FTP.
+
+* whois: Whois de dominios.
+
+* who: Muestra los usuarios de sistema que han iniciado una sesión.
+
+* mail: Envío y lectura de correo electrónico.
+
+* sort: Ordena el contenido de un archivo.
+
+* ln: Link para crear enlaces, accesos directos.
+
+* tail: Muestra el final de un archivo.
+
+* head: Muestra la cabecera de un archivo.
+
+* file: Nos dice de que tipo es un archivo.
+
+* cp fichero1 fichero2: Copia fichero1 como fichero2
+
+* rm fichero: Borra fichero
+
+* rm -R directorio: Borra el contenido completo (ficheros/subdirectorios) de directorio
+
+* mv fichero1 fichero2: Cambia el nombre de fichero1 a fichero2
+
+* mkdir directorio: Crea un subdirectorio
+
+* rmdir directorio: Borra un subdirectorio
+
+* shutdown -t3 -r now: Reinizializa el sistema (hay que hacerlo como root).
+
+* shutdown -t3 -h now: Apaga el sistema (hay que hacerlo como root).
+
+* reboot: Reinicia el sistema.
+
+* poweroff: Apaga el sistema.
+
+* adduser: Añadir usuario de sistema.
+
+* userdel: Eliminar usuario de sistema.
+
+
+
+Comandos de red:
+
+Paso 1. Configurar la IP
+
+ifconfig eth0 192.168.1.1 netmask 255.255.255.0
+
+ 
+
+Paso 2. Configurar GateWay
+
+route add default gw 192.168.1.1
+
+Paso 3. Configurar DNS
+
+echo nameserver 192.168.1.200 > /etc/resolv.conf
+
+Lanzar el cliente DHCP: dhclient

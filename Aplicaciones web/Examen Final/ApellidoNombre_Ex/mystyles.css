@@ -1,0 +1,61 @@
+body {
+  background-color: #E3CD10;
+  font-size: 16px;
+  font-family: arial;
+}
+h1  {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.lista  {
+  line-height: 35px;
+}
+
+form  {
+  margin: 100px;
+  border-color: green;
+  width: 700px;
+  height: 350px;
+  background-color: orange;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 100px;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+
+.texto {
+  font-family: 'Ballet', cursive;
+  color: red;
+  text-shadow: 6px 6px 10px gray;
+}
+.navegador  {
+  background-color: orange;
+  font-family: Impact;
+  font-size: 1.25rem;
+}
+ul.listnav li {
+  display: inline;
+
+}
+ul.listnav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+}
+ul.listnav a:hover {
+  background: orange;
+}
+ul.listnav a:active {
+  color: white;
+  background: red;
+}
+ul.listnav h1 {
+  display: inline;
+  font-size: 3rem;
+  font-family: Norican;
+  color: red;
+  text-shadow: 6px 6px 10px red;
+}

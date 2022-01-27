@@ -1,0 +1,93 @@
+.nerko {
+  color: black;
+  font-size: 10px;
+  text-shadow: 1px 1px 1px black,
+             2px 2px 1px red;
+}
+.marker {
+  color: green;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 1px green,
+             2px 2px 1px blue;
+}
+.rock {
+  color: blue;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px brown,
+             2px 2px 1px red;
+}
+.nerk {
+  color: aqua;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px yellow,
+             2px 2px 1px orange;
+}
+.marke {
+  color: yellow;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 1px red,
+             2px 2px 1px orange;
+}
+.roc {
+  color: red;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 1px violet,
+             2px 2px 1px red;
+}
+.ner {
+  color: orange;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px brown,
+             2px 2px 1px orange;
+}
+.mark {
+  color: brown;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 1px red,
+             2px 2px 1px red;
+}
+.ro {
+  color: magenta;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 1px black,
+             2px 2px 1px red;
+}
+.mar {
+  color: violet;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 1px red,
+             2px 2px 1px blue;
+}
+.ro {
+  color: red;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 1px magenta,
+             2px 2px 1px red;
+}
+.ne {
+  color: orange;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px yellow,
+             2px 2px 1px red;
+}
+.ma {
+  color: brown;
+  font-style: normal;
+    font-size: 2.1rem;
+    text-shadow: 1px 1px 1px black,
+             2px 2px 1px yellow;
+}
+.r {
+  color: magenta;
+  font-style: italic;
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 1px green,
+               2px 2px 1px green;
+}
+.m {
+  color: violet;
+  font-style: oblique;
+    font-size: 2.3rem;
+    text-shadow: 1px 1px 1px blue,
+             2px 2px 1px blue;
+}

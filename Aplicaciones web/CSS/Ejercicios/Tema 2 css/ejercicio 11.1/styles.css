@@ -1,0 +1,15 @@
+.a {
+  font: normal normal bold normal 3em/1.5 Helvetica, Arial, new roman;
+}
+.b {
+  font: italic normal light normal 2em/1.5 impact, Arial, sans-serif;
+}
+.c {
+  font: italic normal normal normal 1em/1.5 vergana, Arial, calibri;
+}
+.d {
+  font: italic normal bold normal 5em/1.5 calibri, Arial, vergana;
+}
+.e {
+  font: oblique normal bold normal 2em/1.5 new roman, Arial, sans-serif;
+}

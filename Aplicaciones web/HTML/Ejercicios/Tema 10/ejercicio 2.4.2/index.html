@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtering images with radio buttons</title>
+  </head>
+  <body>
+    <form action="https://google.com/search" method="GET">
+  <p>Search: <input type="text" name="q" class="big" required /></p>
+  <fieldset>
+    <legend>Size</legend>
+    <input type="radio" name="Large" value="isz:l">Large<br>
+      <input type="radio" name="Medium" value="isz:m">Medium<br>
+      <input type="radio" name="Icon" value="isz:i">Icon<br>
+  </fieldset>
+  <fieldset>
+    <legend>Color</legend>
+      <input type="radio" name="color" value="ic:color">Color<br>
+      <input type="radio" name="Black_and_white" value="ic:gray">Black and white<br>
+      <input type="radio" name="Transparent" value="ic:trans">Transparent<br>
+  </fieldset>
+  <fieldset>
+    <legend>Type</legend>
+    <input type="radio" name="Clip art" value="itp:clipart">Clip art<br>
+      <input type="radio" name="Line drawing" value="itp:lineart">Line drawing<br>
+      <input type="radio" name="GIF" value="itp:animated">GIF<br>
+  </fieldset>
+  <fieldset>
+    <legend>Date</legend>
+      <input type="radio" name="Past 24 hours" value="qdr:d">Past 24 hours<br>
+      <input type="radio" name="Past week" value="qdr:w">Past week<br>
+  </fieldset>
+  <fieldset>
+    <legend>License</legend>
+    <input type="radio" name="GIF" value="il:cl">Creative commons<br>
+    <input type="radio" name="GIF" value="il:ol">Commercial and other<br>
+  </fieldset>
+  <input type="hidden" name="tbm" value="isch" />
+  <button type="reset">Reset</button>
+  <button type="submit">Search</button>
+</form>
+  </body>
+</html>

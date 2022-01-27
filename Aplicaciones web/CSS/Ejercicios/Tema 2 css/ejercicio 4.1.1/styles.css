@@ -1,0 +1,20 @@
+.serif {
+    font-family: serif;
+    color: blue;
+}
+.fantasy {
+    font-family: fantasy;
+    color: green;
+}
+.ser {
+    font-family: monospace;
+    color: yellow;
+}
+.fan {
+    font-family: inherit;
+    color: red;
+}
+.seri {
+  font-family: cursive;
+  color: orange;
+}

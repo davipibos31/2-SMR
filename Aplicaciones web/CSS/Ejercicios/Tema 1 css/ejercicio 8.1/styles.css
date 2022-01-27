@@ -1,0 +1,50 @@
+h1  {
+  color: red;
+}
+h2  {
+  color: aqua;
+}
+ul  {
+  color: violet;
+  list-style-type: decimal;
+}
+p {
+  color: blue;
+}
+a:link  {
+  color: pink;
+}
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+ol  {
+  list-style-type: lower-latin;
+}
+ol.h  {
+  list-style-type: lower-alpha;
+}
+ol.g  {
+  list-style-type: lower-greek;
+}
+ol.f  {
+  list-style-type: upper-alpha;
+}
+ol.e  {
+  list-style-type: upper-roman;
+}
+ul.d  {
+  list-style-type: none;
+}
+ul.c  {
+  list-style-type: circle;
+}
+ul.b  {
+  list-style-type: disc;
+}
+ul.a  {
+  list-style-type: square;
+}

@@ -1,0 +1,22 @@
+h1  {
+  color: red;
+}
+h2  {
+  color: aqua;
+}
+ul  {
+  color: violet;
+}
+p {
+  color: blue;
+}
+a:link  {
+  color: pink;
+}
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}

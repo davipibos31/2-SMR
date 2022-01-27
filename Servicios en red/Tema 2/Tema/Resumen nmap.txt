@@ -1,0 +1,20 @@
+Resumen Nmap
+nmap 192.168.1.0/24 --> Escanea toda la red 192.168.1.0
+nmap 192.168.1.1-100 --> Escanea las máquinas desde la 1 a la 100
+nmap -p1-1023 localhost   --> Escanea el rango de puertos del 1 al 1023
+nmap -A localhost   --> Escanea todo
+nmap -sV localhost --> Escanea sacando las versiones de los servicios instalados
+
+Obtener información de un host remoto y detección del SO:
+nmap -sS -P0 -sV -O [dirección]
+
+scanear sin PING --> nmap -PN [direccion]
+
+Listar servidores con un puerto especifico abierto:
+nmap -sT -p 80 -oG – 192.168.1.* | grep open
+
+Detectar IP’s activas en una red:
+nmap -sP 192.168.0.*
+
+Hacer ping a un rango de IP’s:
+nmap -sP 192.168.1.100-254

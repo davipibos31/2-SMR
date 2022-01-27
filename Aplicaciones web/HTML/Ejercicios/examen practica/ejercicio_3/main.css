@@ -1,0 +1,23 @@
+body {
+  font-family: nerko;
+}
+h2  {
+  text-decoration: underline overline;
+  color: yellow;
+}
+p {color: red;}
+.primero {
+  color: orange;
+}
+.segundo {
+  color: blue;
+}
+.tercero {
+  color: green;
+}
+.cuarto {
+  color: brown;
+}
+figcaption  {
+  color: yellow;
+}

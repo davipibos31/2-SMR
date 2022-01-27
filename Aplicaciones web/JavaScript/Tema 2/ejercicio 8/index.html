@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+	<style>
+		.desordenada{
+			list-style-position: inside;
+		}
+		.ordenada{
+			list-style-type: lower-alpha;
+			list-style-position: inside;
+		}
+		.desordenada, .ordenada, li{
+			border:1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		'use strict';
+
+		let num=prompt("Dame un número");
+		let num2=prompt("Dame otro número");
+		if(isNaN(num) || isNaN(num2))
+			alert("Error!, ambos deben ser números");
+		else{
+			num=+num;
+			num2=+num2;
+			if(num>num2)
+				console.log("El primero("+num+") es mayor que el segundo("+num2+")");
+			else if(num<num2)
+				console.log("El segundo("+num2+") es mayor que el primero("+num+")");
+			else
+				console.log("El primero("+num+") es igual que el segundo("+num2+")");
+
+			if(num%2==0)
+				console.log("El primero es par");
+			else
+				console.log("El primero es impar");
+
+			if(num2%2==0)
+				console.log("El segundo es par");
+			else
+				console.log("El segundo es impar");
+
+			let operacion=prompt("Dame una operación (+,-,/ ó *)");
+
+			if(operacion=="+")
+				console.log("El resultado es:"+(num+num2));
+			else if(operacion=="-")
+			{
+				let resultado=num-num2;
+				console.log("El resultado es:"+resultado);
+			}
+			else if(operacion=="*")
+				console.log("El resultado es:"+(num*num2));
+			else if(operacion=="/")
+				console.log("El resultado es:"+(num/num2));
+			else
+				alert("Operación introducida NO válida");
+		}
+
+
+
+
+
+
+/*
+
+
+	console.log(num>num2);
+
+	console.log("La suma es:"+ (+num + +num2));
+	console.log("La resta es:"+num-num2);
+	console.log("El producto es:"+num*num2);
+	console.log("La división es:"+num/num2);
+	console.log(num%num2);
+
+	let x=8;
+	let y="safsafsa";
+	console.log((5>3) || (2>3));
+	console.log("hola">"adios");
+	console.log(9>100000000);
+
+
+	//x=x+1;
+	console.log(y++); //8
+	console.log(y);
+	console.log(x++); //8
+	console.log(++x); //10
+	console.log(--x); //9
+	console.log(x--); //9
+	console.log(x); //8
+
+	*/
+
+
+	/*
+
+
+
+
+		let num1=+prompt("Dame un número"); //8
+		let num2=+prompt("Dame otro número"); //4
+		let operacion=prompt("Dime operación (SUM o SUBSTRACT)");
+
+		console.log((operacion=="SUM")?(num1+num2):(num1-num2));
+
+		if(operacion=="SUM")
+		{
+			let resultado;
+			resultado=num1+num2;
+		}
+		else if(operacion=="SUBSTRACT")
+		{
+			let resultado=num1-num2;
+		}
+		else
+			alert("Error, te he dicho SUM o SUBSTRACT");
+		console.log(resultado);
+		*/
+		/*
+		let variable1=true;
+		let variable2=false;
+		//SIEMPRE TRUE
+		console.log(variable1);
+		console.log(!variable2);
+		console.log(variable1 && variable1);
+		console.log(variable1 || variable2);
+
+		console.log("9">"10000000000000");//true
+		console.log(4==4);//true
+		console.log(4===4);//true
+		console.log(4=="4");//true
+		console.log(4==="4");//false
+		console.log(4!=4); //false
+		console.log(4!="4");//false
+		console.log(4!=="4");//true
+
+		console.log(num1++ * ++num2); //40
+		console.log(num1); //9
+		console.log(num2); //5
+		console.log(--num1 - ++num2);//2
+		console.log(num1); //8
+		console.log(num2); //6
+		console.log(num1 + num1-- + ++num2);//23
+		console.log(num1); //7
+		console.log(num2); //7
+*/
+			/*
+		console.log(num1*num2);
+		console.log(num1/num2);
+		console.log(num1-num2);
+		console.log(num1%num2);
+		console.log(num1 + num2);
+
+
+		const anyo_actual=2021;
+		let name=prompt("Give me your name");
+		let birth_year=prompt("And your birth_year");
+
+		alert("Hello "+name+" your age is "+(anyo_actual-birth_year));
+
+		let resultado=anyo_actual-birth_year;
+
+		alert("Hello "+name+" your age is "+resultado);
+
+
+
+		console.log("It is very easy to write 'single quote' inside \"double quotes\"");
+
+
+		console.log("HOLA QUE TAL");
+		console.log("TODO BIEN");
+		*/
+
+
+		/* ESTO ES UNA PRUEBA QUE HICE EN ENERO*/
+		/*
+		let num = prompt("DAME UN NÚMERO");
+		console.log("El valor que me ha metido es: "+num);
+		num=num*2;
+
+
+		let titulo=prompt("Dame un título para tu página");
+
+
+		document.write("<h1> "+titulo+"</h1>");
+
+
+		//let num2;
+		//num2=num-3;
+		//alert(num2);
+		//let num3=num+num2;
+*/
+
+	</script>
+
+	<h1>LISTA</h1>
+	<ul class="desordenada">
+		<li>item 1</li>
+		<li>item 2</li>
+		<li>item 3</li>
+	</ul>
+	<ol class="ordenada">
+		<li>item 1</li>
+		<li>item 2</li>
+		<li>item 3</li>
+	</ol>
+
+	<script>
+	 alert("LA PÁGINA YA SE CARGÓ");
+	</script>
+
+
+
+
+
+
+</body>
+</html>

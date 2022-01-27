@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Native controls</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Fact 1
+      <form class="f" action="index.html" method="get">
+        <label for="nombre"> Name:
+          <input type="text" name="nombre" placeholder="Pon tu nombre:">
+        </label> <br>
+        <label for="telefono"> Phone:
+          <input type="number" name="telefono" value="telefono">
+        </label><br>
+        <label for="sexo"> Sex:
+          H<input type="radio" name="sexo" value="Hombre">
+          M<input type="radio" name="sexo" value="Mujer">
+        </label><br>
+        </legend>
+        </fieldset>
+
+
+        <fieldset>
+        <legend>Fact 2
+          <form class="f" action="index.html" method="get">
+        <label for="Hobbies">Hobbies:<br>
+          football<input type="checkbox" name="hobby" value="futbol" checked>
+          mountain<input type="checkbox" name="hobby" value="montaña">
+          cinema<input type="checkbox" name="hobby" value="cine">
+          trabel<input type="checkbox" name="hobby" value="viajar">
+        </label><br>
+
+        <label for="select">Choose the pet you most like:
+          <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+          </select>
+        </label><br>
+        </legend>
+        </fieldset>
+
+        <fieldset>
+          <legend> Fact 3
+            <form class="f" action="index.html" method="get">
+              <label for="File">Permissions
+                <input type="file" accept="image/*;capture=camera">
+                <input type="file" accept="video/*;capture=camcorder">
+                <input type="file" accept="audio/*;capture=microphone">
+              </label><br>
+          </legend>
+        </fieldset>
+
+        <fieldset>
+          <legend> Fact 4
+              <form class="f" action="index.html" method="get">
+                <label for="textarea">Comments
+                  <textarea name="story" rows="2">
+                    by default this element is filled with this text
+                  </textarea>
+                </label><br>
+              </form>
+          </legend>
+        </fieldset>
+
+        <fieldset>
+        <legend>Fact 5
+        <label for="Actions">Actions:
+          <input type="reset" name="Delete" value="Delete">
+          <input type="submit" name="Send" value="Send">
+        </label><br>
+
+        </legend>
+        </fieldset>
+  </body>
+</html>

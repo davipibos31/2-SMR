@@ -1,0 +1,26 @@
+.box1 {
+  border-top: 5px dotted green;
+  border-right: 5px dashed orange;
+  border-bottom: 5px dotted red;
+  border-left: 5px dashed blue;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  ...
+}
+.box2 {
+  border: 5px solid black;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-top-color: aqua;
+  border-bottom-color: pink;
+  padding: 15px;
+  text-align: center;
+  ...
+}
+.box3 {
+  border: 2px solid black;
+  padding: 10px;
+  ...
+}

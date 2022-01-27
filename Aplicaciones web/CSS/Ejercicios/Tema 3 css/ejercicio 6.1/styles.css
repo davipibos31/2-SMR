@@ -1,0 +1,67 @@
+.a {
+  font-size: 2rem;
+  text-align: center;
+}
+.b {
+  font-size: 2.1rem;
+  text-align: center;
+}
+.c {
+  font-size: 2.2rem;
+  text-align: center;
+}
+.d {
+  font-size: 2.3rem;
+  text-align: center;
+}
+.e {
+  font-size: 2.4rem;
+  text-align: center;
+}
+a:link {
+  color: green;
+}
+a:visited {
+  color: olive;
+}
+a:focus {
+  background: orange;
+}
+a:hover {
+  background: yellow;
+  text-decoration: underline red wavy;
+}
+a:active {
+  background: red;
+}
+p a {
+  background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+  background-size: 2rem;
+  padding-right: 2.5rem;
+}
+/* General class for navigation bar */
+.navbar {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  text-align: center;
+  background: yellow;
+}
+/* Select only the list items (li) inside the navigation bar */
+ul.navbar li {
+  display: inline;
+}
+/* Select only the links (a) inside the navigation bar */
+ul.navbar a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+}
+/* Select only the links inside the navigation bar when mouse over them (a:hover) */
+ul.navbar a:hover {
+  background: orange;
+}
+/* Select only the links inside the navigation bar when mouse pressing (a:active) */
+ul.navbar a:active {
+  color: white;
+  background: red;
+}
